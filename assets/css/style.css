@@ -2,3 +2,37 @@
   background-color: rgb(17, 18, 19);
   color: white;
 }
+.site-header {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 1em;
+}
+
+.site-identity img {
+  max-width: 55px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  position: relative;
+}
+
+.navbar a {
+  margin: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  top: -75px;
+}
+.free-trail-btn,
+.account-btn {
+  display: flex;
+  width: 10.5em;
+  height: 3em;
+  border-radius: 30px;
+  position: relative;
+  margin: 30px;
+}
