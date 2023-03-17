@@ -1,6 +1,7 @@
 * {
   background-color: rgb(17, 18, 19);
   color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .site-header {
   border-bottom: 1px solid #ccc;
@@ -14,25 +15,171 @@
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+  align-items: right;
   float: right;
-  position: relative;
 }
 
 .navbar a {
-  margin: 30px;
+  margin: 40px;
   font-size: 15px;
   font-weight: 700;
   text-decoration: none;
   position: relative;
-  top: -75px;
+  top: -85px;
 }
-.free-trail-btn,
-.account-btn {
-  display: flex;
-  width: 10.5em;
-  height: 3em;
-  border-radius: 30px;
+.free-trail-btn {
+  width: 110px;
+  height: 40px;
+  top: -55px;
+  border-radius: 50px;
+  font-family: inherit;
+  background-color: #000000;
+  color: #f8ffcf;
+  border: solid 1px #f1ffa2;
   position: relative;
-  margin: 30px;
+  font-size: 15px;
+  font-weight: 300px;
+  font-family: inherit;
+  right: 30px;
+}
+.account-btn {
+  margin: 10px;
+  width: 95px;
+  height: 40px;
+  top: -65px;
+  border-radius: 30em;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #e6fd65;
+  color: black;
+  border: none;
+  position: relative;
+  right: 30px;
+  z-index: 1;
+}
+/* body  
+body {
+  margin: 6%;
+  margin-top: -2%;
+  height: 75%;
+}*/
+.text-container {
+  color: white;
+  height: 300px;
+  width: 900px;
+  padding-top: 20px;
+  text-align: center;
+
+  font-family: sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+p {
+  position: relative;
+  font-size: 20px;
+  text-align: left;
+  left: 100px;
+}
+table {
+  border: #000000;
+}
+.start-now {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #f0ff98;
+  color: black;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+.how-it-works {
+  margin: 10px;
+  width: 14%;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 13px;
+  font-weight: 200;
+  font-family: inherit;
+  background-color: #000000;
+  color: #e1f2c1;
+  border: solid 1px #e1f2c1;
+  position: relative;
+  overflow: hidden;
+}
+/* footer  */
+footer {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  background-color: white;
+}
+.Farm {
+  width: 13em;
+  height: 4em;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  background-color: #000000;
+  color: white;
+  border: solid 1px black;
+  position: relative;
+  left: 75px;
+  left: 25px;
+}
+.Seven {
+  padding: 6px 6px;
+  border-radius: 90px;
+  font-size: 10px;
+  background-color: wheat;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  position: relative;
+  left: 3px;
+  left: 5px;
+}
+.FooterL {
+  position: relative;
+  left: 60px;
+  left: 5px;
+  height: 48px;
+  width: 48px;
+}
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 10px;
+  background-color: white;
+}
+.footer-paragraph {
+  width: 22%;
+  margin-left: 50px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  font-weight: 600;
+}
+footer button {
+  width: 110px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #f1ffa2;
+  color: black;
+  border: solid 1px black;
+}
+.DontWait {
+  position: relative;
+  z-index: 2;
 }
